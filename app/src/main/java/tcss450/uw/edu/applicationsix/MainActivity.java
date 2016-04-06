@@ -38,7 +38,7 @@ public class MainActivity extends Activity {
     }
 
     public void openSecondActivity(View view) {
-        Intent intent = new Intent(this, SecondActivity.class);
+        Intent intent = new Intent(this, secondActivity.class);
         startActivity(intent);
     }
 }
